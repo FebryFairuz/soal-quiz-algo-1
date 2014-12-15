@@ -1,0 +1,262 @@
+#include<iostream.h>
+#include<conio.h>
+#include<…………….h>
+#include<stdio.h>
+
+char nama[20];
+void menuUtama();
+
+void modulePerulangan();
+	void …………………………(int bilangan);
+	void ………………………… (int bilangan);
+	void ………………………… (int bilangan); 
+
+void ………………………… ();
+	………… pangkatArray1D(……… ………);
+	float ………………………… (int nilai);
+       void arrayMultiD();
+
+float d = 1.8;
+void moduleFungsi();
+   float kelvin(float c);
+   ………… fahrenheit(float c);
+   float rankine(……… c);
+   float delisle(float c);
+   float …………(float c);
+   …………… reamur(float c);
+   float romer(float ……);
+
+
+void main(){
+	cout<<"Masukan Nama Anda : ";………(nama);
+	menuUtama(); 
+	getch();
+}
+
+//menu utama
+void menuUtama(){
+   clrscr();
+   char keluar;
+   int module;
+	do{
+       cout<<"__________________________________________________________\n\n";
+   	cout<<"\t\tMateri  : Review Perulangan, Array dan Fungsi \n";
+   	cout<<"\t\tTgl     : Rabu, 16 Juli 2013\n ";
+       cout<<"\t\tCreated : "<<………<<"\n";		cout<<"_______________________________________________________\n";
+
+   	//module materi		
+       cout<<"\n================================\n";
+       cout<<"\tMATERI ALPRO 1\n";
+		cout<<"============================\n";
+   	cout<<"1. Perulangan\n";
+	cout<<"2. Array\n";
+       cout<<"3. Fungsi\n";
+       cout<<"4. Keluar\n";
+       cout<<"------------------------------------\n";
+   	cout<<"Pilih Module : "; cin>>module;
+   	switch(module){
+   		case 1: …………………………();
+      	break;
+      	case 2: moduleArray();
+      	break;
+	case 3: …………………………();
+      	break;
+	case 4:
+            cout<<"Apakah anda yakin akan keluar ?(y/n) ";cin>>keluar;
+            if(………… == 'y'){
+              cout<<"+++++++Terima Kasih+++++++\n";
+            }else{
+               menuUtama();
+            }
+      	break;
+      	default: cout<<"module tidak tersedia\n";
+   	}
+   }while(module !=4);
+}
+
+
+//fungtion module Perulangan
+void modulePerulangan(){
+   clrscr();
+   int faktorial, menu;
+   cout<<"\t   Program menghitung Faktorial \n";
+   cout<<"------------------------------------------\n";
+	cout << "Masukkan panjang deret faktorial: ";
+	cin >> faktorial;
+   do{
+   cout<<"\n========================================\n";
+   cout<<"Pilihlah Proses Perulangan yang akan digunakan untuk \nmenghasilkan jumlah
+          dari deret FAKTORIAL "<<faktorial<<endl;
+   cout<<"\n============================================\n";
+   cout<<"1. WHILE\n";
+   cout<<"2. DO WHILE\n";
+   cout<<"3. FOR\n";
+   cout<<"4. Kembali Ke Menu Utama\n";
+   cout<<"-------------------------------------------------\n";
+   cout<<"Pilih Menu : ";cin>>menu;
+   switch(menu){
+      case 1 : …………………………(…………………);
+      break;
+      case 2 : …………………………(…………………);
+      break;
+      case 3 : perulanganFor(faktorial);
+      break;
+      case 4 : cout<<endl<<endl; menuUtama();
+      break;
+      default: cout<<"pilihan tidak tersedia \n"; 
+   }
+   }while(menu !=4);
+   clrscr();
+}
+
+	
+
+
+//menu perulangan
+void perulanganWhile(int bilangan){
+  clrscr();
+  #isilah bagian ini dengan kodingan membuat deret factorial dengan menggunakan WHILE
+   ………………………………………………
+   ………………………………………………
+   ………………………………………………
+   ………………………………………………
+   ………………………………………………
+
+}
+
+void perulanganDoWhile(int bilangan){
+  clrscr();
+   #isilah bagian ini dengan kodingan membuat deret factorial dengan menggunakan DO  
+    WHILE
+   ………………………………………………
+   ………………………………………………
+   ………………………………………………
+   ………………………………………………
+   ………………………………………………
+
+}
+
+void perulanganFor(int bilangan){
+ clrscr();
+  #isilah bagian ini dengan kodingan membuat deret factorial dengan menggunakan FOR
+   ………………………………………………
+   ………………………………………………
+   ………………………………………………
+   ………………………………………………
+   ………………………………………………
+
+}
+
+
+//module Array
+void moduleArray(){
+   clrscr();
+   int menu,i,data,max,min;
+   int angka[10];
+   do{
+   cout<<"\n==========================================\n";
+   cout<<"\t  ARRAY";
+   cout<<"\n==========================================\n";
+   cout<<"1. Array 1 Dimensi\n";
+   cout<<"2. Array Multi Dimensi\n";
+   cout<<"3. Kembali Ke Menu Utama\n";
+   cout<<"----------------------------------------------\n";
+   cout<<"Pilih Menu : ";cin>>menu;
+   cout<<endl;
+   switch(menu){
+   	case 1 : {
+         clrscr();
+        #isilah bagian ini dengan kodingan mencari bilangan terbesar berdasarkan  
+         pangkat dan mencari bilangan terkecil berdasarkan akar
+         …………………………………………………………………………………………………………………
+         …………………………………………………………………………………………………………………
+         …………………………………………………………………………………………………………………
+         …………………………………………………………………………………………………………………
+         …………………………………………………………………………………………………………………
+      }
+      break;
+      case 2 : ………………………();
+      break;
+      case 3 : cout<<endl<<endl; ……………………………………();
+      break;
+      default: cout<<"pilihan tidak tersedia \n";
+   }
+   }while(menu != ……);
+   clrscr();
+}
+
+   int ……………………………(int nilai){
+      int p;
+      p = pow(………………,2);
+      return p;
+   }
+
+   ………… akarArray1D(int ……………){
+      float a;
+      a = ……………(nilai);
+      return ………;
+   }
+
+   void arrayMultiD(){
+      clrscr();
+         #isilah bagian ini dengan kodingan membuat sebuah segitiga angka dengan baris 
+          4 dan kolom 4
+         …………………………………………………………………………………………………………………
+         …………………………………………………………………………………………………………………
+         …………………………………………………………………………………………………………………
+         …………………………………………………………………………………………………………………
+         …………………………………………………………………………………………………………………
+
+   }
+
+
+//module fungsi
+void moduleFungsi(){
+   clrscr();
+   int celsius,menu;
+   cout<<"\n=============================================================\n";
+   cout<<"\t  Menghitung Suhu Dari Celsius";
+   cout<<"\n=============================================================\n";
+   cout<<"Masukan nilai Celsius : ";cin>>……………………;
+   do{
+	  #isilah bagian ini dengan kodingan merubah suhu dengan skala yang sudah  
+          ditentukan dengan mennggunakan sebuah menu pilihan
+         …………………………………………………………………………………………………………………
+         …………………………………………………………………………………………………………………
+         …………………………………………………………………………………………………………………
+         …………………………………………………………………………………………………………………
+         …………………………………………………………………………………………………………………
+
+      }
+   }while(menu != 8);
+}
+
+float kelvin(float c){
+  float k;
+  k = c + 273.15;
+  return k;
+}
+
+
+   float fahrenheit(float c){
+	return c * d + 32;
+   }
+   float rankine(float c){
+   	return d * (c + 491.67);
+   }
+   float delisle(float c){
+   	int b;
+      b = 100 - ………;
+      return b * 1.5;
+   }
+   float newtown(float c){
+   	return c * 33 / 100;
+   }
+   float reamur(float c){
+   	return c * 0.8;
+   }
+   float romer(float c){
+      float ro;
+      ………… = c * 21/40 + 7.5;
+      return ro;
+   }
